@@ -1,0 +1,48 @@
+@media only screen and (max-width: 812px) {
+    .container {
+    width: 150%;
+    height: 150%;
+    }
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+} 
+p {
+    color: white;
+}
+body {
+    background-color: rgb(58, 58, 58);
+}
+nav {
+    background: linear-gradient(rgb(170, 170, 170),rgb(99, 99, 99));
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+
+}
+ul {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+li a{
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+    float: left;
+    padding-left: 19px;
+}
+.container {
+    border: 1px solid rgb(114, 114, 114);
+    background: rgb(83, 83, 83);
+    border-radius: 5px;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+
+}
+hr {
+    border: solid 1px;
+    margin: 2px;
+    color: rgb(114, 114, 114);
+}
