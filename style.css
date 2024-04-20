@@ -2,18 +2,16 @@
 
 h1 {
     color: rgb(255, 255, 255);
-    text-align: center;
-
 } 
 p {
     color: white;
-    text-align: center;
 }
 body {
     background-color: #3a3a3a;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 /*navbar styling code*/
@@ -25,16 +23,23 @@ body {
 }
 ul {
     list-style-type: none;
+    overflow: hidden;
+    background-color: #808080;
+    padding: 0;
+    margin: 0;
 }
 li a{
+    display: block;
     color:#ffffff;
+    padding: 5px;
     margin: 5px;
     text-decoration: none;
-    float: left;
- 
-/*container styling code*/    
-
 }
+li:hover{
+    background-color: #535353;
+    transition: 0.2s;
+}
+/*container styling code*/
 .container {
     border: 1px solid #727272;
     background: #535353;
