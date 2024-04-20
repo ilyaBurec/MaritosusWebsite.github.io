@@ -1,48 +1,61 @@
+/* main code*/
 
-@media only screen and(max-width: 420px){
-    .container{
-        width: 150%;
-        height: 150%;
-    }
-}
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
 } 
 p {
     color: white;
+    text-align: center;
 }
 body {
-    background-color: rgb(58, 58, 58);
+    background-color: #3a3a3a;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
-nav {
-    background: linear-gradient(rgb(170, 170, 170),rgb(99, 99, 99));
-    background-repeat: no-repeat;
-    overflow: hidden;
-    text-align: center;
 
+/*navbar styling code*/
+
+.nav {
+    background: linear-gradient(#aaaaaa,#636363);
+    text-align: center;
+    position: sticky;
+    width: 565px;
 }
 ul {
     list-style-type: none;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 li a{
-    color:rgb(255, 255, 255);
+    color:#ffffff;
     margin: 5px;
     text-decoration: none;
     float: left;
-    padding-left: 19px;
+ 
+/*container styling code*/    
+
 }
 .container {
-    border: 1px solid rgb(114, 114, 114);
-    background: rgb(83, 83, 83);
+    border: 1px solid #727272;
+    background: #535353;
+    margin: 40px;
     border-radius: 5px;
-    margin: 70px;
-    padding-top: 5px;
-    padding-bottom: 25px;
-
+    padding-bottom: 20px;
 }
 hr {
     border: solid 1px;
-    color: rgb(114, 114, 114);
+    color: #727272;
+}
+
+/* link interaction code*/
+
+a:hover{
+    font-size: 17px;
+}
+a:active{
+    font-size: 15px;
+}
+a{
+    transition: 0.2s;
 }
