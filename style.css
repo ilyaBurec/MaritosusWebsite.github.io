@@ -3,6 +3,7 @@
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
+
 } 
 p {
     color: white;
@@ -21,11 +22,9 @@ body {
     background: linear-gradient(#aaaaaa,#636363);
     text-align: center;
     position: sticky;
-    width: 565px;
 }
 ul {
     list-style-type: none;
-    padding-bottom: 30px;
 }
 li a{
     color:#ffffff;
@@ -50,12 +49,9 @@ hr {
 
 /* link interaction code*/
 
-a:hover{
-    font-size: 17px;
-}
-a:active{
-    font-size: 15px;
-}
 a{
     transition: 0.2s;
+}
+a:hover{
+    color: rgb(0, 174, 255);
 }
